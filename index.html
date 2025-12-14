@@ -22,17 +22,30 @@
         <div>
             <details>
                 <summary style="font-size: 20px; text-align: center;">Плюсы</summary>
-                <ul>
+                <ul style="text-align: center; list-style-type:none; font-size:20px">
                     <li>Программа перебирает простые пароли</li>
                     <li></li>
                 </ul>
             </details>
-            <details style="font-size: 20px; text-align: center;">
-                <summary style="font-size: 20px; text-align: center">Минусы</summary>
-                <ul>
-                    <li></li>
+            <details>
+                <summary style="font-size: 20px; text-align: center;">Минусы</summary>
+                <ul style="text-align: center ;list-style-type:none; font-size: 20px">
+                    <li id="1">Работает только, если отключён ограничитель попыток
+                        <br>
+                        <a href="https://github.com/separeit894/password_checker/blob/main/assets/how_to_disable_the_lock_threshold.gif">Как отключить ограничитель попыток</a>
+                        <br>Иначе, заблокирует учётную запись ( навсегда/на временной промежуток ) в зависимости от того как вы настроили 
+                    </li>
+                    <li id="2">
+                        При многосимвольных паролях начинает тормозить (из-за того что подгружает каждый раз json файл)
+                    </li>
                 </ul>
             </details>
+        </div>
+
+        <div>
+            <p style="font-size: 20px; text-align: center">ТРЕБОВАНИЯ</p>
+            <p style="font-size: 20px; text-align: center;">ОС: Windows 7 x32/x64 и выше</p>
+            <p style="font-size: 20px; text-align: center">ОЗУ: Чем больше, тем лучше</p>
         </div>
     </body>
 </html>
