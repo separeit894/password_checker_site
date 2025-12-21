@@ -14,7 +14,7 @@
 ## Установка
 
 ```bash
-git clone --recursive https://github.com/separeit894/password_checker_site
+git clone https://github.com/separeit894/password_checker_site
 ```
 
 ## Запуск
