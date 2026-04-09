@@ -15,57 +15,112 @@
             <script src="script.js"></script>
         </div>
         <br>
+
+        <div>
         <p >Password Checker <br> 
         Это программа для перебора паролей к учётной записи Windows <br>
 	    (Не подходит для Linux)
-        </p><hr>
-        <div>
-            <p>Python</p>
-            <p><a href="https://github.com/separeit894/password_checker" target="_blank">Последняя версия</a></p>
+        </p>
         </div><hr>
 
-        <div>
-            <p>C++</p>
-            <p><a href="https://github.com/separeit894/password_checker/tree/cpp" target="_blank">Последняя версия</a></p>
-        </div><hr>
+        <table border="2" align="center">
+            <tbody>
+                <tr>
+                    <th>
+                        <big>Python</big>
+                    </th>
+                    <th>
+                        <a href="https://github.com/separeit894/password_checker" target="_blank">Github Python version</a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <big>C++</big>
+                    </th>
+                    <th>
+                        <a href="https://github.com/separeit894/password_checker/tree/cpp" target="_blank">Github CPP version</a>
+                    </th>
+                </tr>
+            </tbody>
+        </table><hr>
 
-        <div>
-            <details>
-                <summary>Плюсы</summary>
-                <ul>
-                    <li>Программа перебирает простые пароли</li>
-                    <li></li>
-                </ul>
-            </details>
-            <details>
-                <summary>Минусы</summary>
-                <ul>
-                    <li id="1">Работает, если отключён ограничитель попыток входа в учётную запись Windows
-                        <hr>
-                        <p>
-                            <big>
-                                Как отключить ограничитель попыток на аутентификацию пользователя в Windows
-                            </big>
-                        </p>
-                        <br>
-                        <img src="how_to_disable_the_lock_threshold.gif" alt="Как выключить ограничитель попыток.gif"><hr>
-                        <br>Иначе, заблокирует учётную запись ( навсегда/на временной промежуток ) в зависимости от того как у вас настроен параметр в <br>secpol.msc</br>
-                    </li>
-                    <li id="2">
-                        При многосимвольных паролях начинает тормозить (из-за того что подгружает каждый раз json файл)
-                    </li>
-                </ul>
-            </details>
-        </div><hr>
+        <table border="2" align="center" width="450px">
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        <big>Password Checker</big>
+                    </tr>
+                </tr>
+                <tr>
+                    <th>ПЛЮСЫ</th>
+                    <th>МИНУСЫ</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Программа перебирает пароли</td>
+                    <td>Работает, если отключён ограничитель попыток входа в учётную запись Windows</td>
+                </tr>
+                <tr>
+                    <td>Возможносить использования словаря для перебора</td>
+                    <td>Иначе, заблокирует учётную запись ( навсегда/на временной промежуток ) в зависимости от того как у вас настроен параметр в <br>secpol.msc</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>При многосимвольных паролях начинает тормозить (из-за того что подгружает каждый раз json файл)</td>
+                </tr>
+            </tbody>
+            
+        </table><hr>
 
-        <div>
+        <!-- <div>
             <p>ТРЕБОВАНИЯ</p>
             <p>ОС: Windows 7 x32/x64 и выше</p>
             <p>ОЗУ: Чем больше, тем лучше</p>
-        </div><hr>
+        </div><hr> -->
+
+        <table border="2" align="center" width="450px">
+            <thead>
+                <tr>
+                    <th colspan="3">ТРЕБОВАНИЯ</th>
+                </tr>
+                <th colspan="3">ОПЕРАЦИОННАЯ СИСТЕМА</th>
+                <tr>
+                    <th>Windows</th>
+                    <th>Linux</th>
+                    <th>MacOS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td>✅</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                </tr>
+
+                <tr>
+                    <td>Windows 7 и выше</td>
+                </tr>
+                <tr align="center">
+                    <td colspan="3"><b>РАЗРЯДНОСТЬ</b></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="3">x32 / x64</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr align="center">
+                    <td colspan="3"><b>ОЗУ</b></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="3"> 1 ГБ и больше</td>
+                </tr>
+            </tfoot>
+        </table><hr>
 
         <div>
-            <p style="float: left;">Version 0.6.5</p>
+            <p style="float: left;">Version 0.6.6</p>
         </div>
     </body>
 </html>
