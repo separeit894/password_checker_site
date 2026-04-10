@@ -4,7 +4,12 @@ body{
     color: black;
     transition: background-color 0.7s, color 0.7s;
 }
-
+button{
+    font-size: 20px;
+    float: right;
+    display: flex;
+    
+}
 .dark-theme {
     background-color: black;
     color: white;
@@ -15,10 +20,30 @@ p{
     text-align: center
 }
 
+#Password_Checker_Description{
+    font-style: bold;
+    
+}
+
 div{
     text-align: center;
 }
 
-table{
-    
+.my-table{
+    border: 2px solid #000;
+    margin: 0 auto;
+    width: 450px;
+    border-collapse: collapse;
 }
+
+
+.my-table th,
+.my-table td {
+    border: 1px solid #000;      /* внутренние ячейки */
+    padding: 6px;
+}
+
+.my-table tr {
+    text-align: center;
+}
+
