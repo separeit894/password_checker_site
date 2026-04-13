@@ -13,6 +13,19 @@ button{
 .dark-theme {
     background-color: black;
     color: white;
+    
+}
+
+.dark-theme .my-table {
+    border: 2px solid white;
+    border-collapse: collapse;
+
+}
+
+.dark-theme .my-table th,
+.dark-theme .my-table td {
+    border: 2px solid white;
+    border-collapse: collapse;
 }
 
 p{
@@ -39,7 +52,7 @@ div{
 
 .my-table th,
 .my-table td {
-    border: 1px solid #000;      /* внутренние ячейки */
+    border: 2px solid #000;
     padding: 6px;
 }
 
