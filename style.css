@@ -49,7 +49,6 @@ div{
     border-collapse: collapse;
 }
 
-
 .my-table th,
 .my-table td {
     border: 2px solid #000;
@@ -60,3 +59,22 @@ div{
     text-align: center;
 }
 
+.link_github {
+    text-decoration: none;
+}
+
+.link_github:hover {
+    color:blueviolet
+}
+
+.link_github:visited {
+    color:cadetblue
+}
+
+#version-site {
+    float: left;
+}
+
+#how-to-disable-the-lock-threshold {
+    text-align: center;
+}
