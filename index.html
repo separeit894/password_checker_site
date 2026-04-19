@@ -16,12 +16,14 @@
         </div>
         <br>
 
+        <div id="Password_Checker">
+        Password Checker 
+        </div><br>
+
         <div id="Password_Checker_Description">
-        <p >Password Checker <br> 
         Это программа для перебора паролей к учётной записи Windows <br>
 	    (Не подходит для Linux)
-        </p>
-        </div><hr>
+        </div><br>
 
         <table class="my-table">
             <tbody>
@@ -30,7 +32,7 @@
                         <big>Python</big>
                     </th>
                     <th>
-                        <a class="link_github" href="https://github.com/separeit894/password_checker" target="_blank">Github Python version</a>
+                        <a class="link_github" href="https://github.com/separeit894/password_checker" target="_blank" title="Переход на репозиторий с Python Версией">Перейти на репозиторий</a>
                     </th>
                 </tr>
                 <tr>
@@ -38,7 +40,7 @@
                         <big>C++</big>
                     </th>
                     <th>
-                        <a class="link_github" href="https://github.com/separeit894/password_checker/tree/cpp" target="_blank">Github CPP version</a>
+                        <a class="link_github" href="https://github.com/separeit894/password_checker/tree/cpp" target="_blank" title="Переход на репозиторий с C++ Версией">Перейти на репозиторий</a>
                     </th>
                 </tr>
             </tbody>
@@ -59,16 +61,13 @@
             <tbody>
                 <tr>
                     <td>Программа перебирает пароли</td>
-                    <td>Работает, если отключён ограничитель попыток входа в учётную запись Windows</td>
+                    <td>Работает, если отключён ограничитель попыток входа в учётную запись Windows<br>Иначе, заблокирует учётную запись ( навсегда/на временной промежуток ) в зависимости от того как у вас настроен параметр в <br>secpol.msc</td>
                 </tr>
                 <tr>
                     <td>Возможносить использования словаря для перебора</td>
-                    <td>Иначе, заблокирует учётную запись ( навсегда/на временной промежуток ) в зависимости от того как у вас настроен параметр в <br>secpol.msc</td>
-                </tr>
-                <tr>
-                    <td>-</td>
                     <td>При многосимвольных паролях начинает тормозить (из-за того что подгружает каждый раз json файл)</td>
                 </tr>
+                
             </tbody>
             
         </table><br>
@@ -111,15 +110,15 @@
                     <td colspan="3"> 1 ГБ и больше</td>
                 </tr>
             </tfoot>
-        </table><hr>
+        </table><br>
+
         <div  id="how-to-disable-the-lock-threshold">
-            <p><b>Как отключить ограничитель попыток</b></p>
+            <p id="text-how-to-disable-the-lock-threshold">Как отключить ограничитель попыток на аутентификацию в Windows</p><br>
             <img src="how_to_disable_the_lock_threshold.gif" title="Как отключить ограничитель по аутентификации в Windows">
         </div>
         <footer>
-            <p id="version-site">Version 0.6.9</p>
+            <p id="version-site">Version 0.7.0</p>
         </footer>
             
-        
     </body>
 </html>

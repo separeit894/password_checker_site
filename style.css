@@ -1,31 +1,25 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    color: black;
+    color: white;
     transition: background-color 0.7s, color 0.7s;
 }
 button{
     font-size: 20px;
+    font-weight: bolder;
     float: right;
     display: flex;
-    
+    border-radius: 10px;
+    background-color: #605e7a;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
 }
 .dark-theme {
-    background-color: black;
+    background-color: #3d3b3b;
     color: white;
     
-}
-
-.dark-theme .my-table {
-    border: 2px solid white;
-    border-collapse: collapse;
-
-}
-
-.dark-theme .my-table th,
-.dark-theme .my-table td {
-    border: 2px solid white;
-    border-collapse: collapse;
 }
 
 p{
@@ -33,9 +27,68 @@ p{
     text-align: center
 }
 
-#Password_Checker_Description{
+#Password_Checker {
+    font-size: 24px;
+    width: 250px;
+    height: inherit;
     font-style: bold;
-    
+    text-align: center;
+    border-color: 2px;
+    border-style: solid;
+    border-color: silver;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #9c9998;
+    font-weight: bolder;
+}
+
+#Password_Checker_Description {
+    font-size: 24px;
+    width: 450px;
+    height: inherit;
+    font-style: bold;
+    text-align: center;
+    border-color: 2px;
+    border-style: solid;
+    border-color: silver;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #9c9998;
+    font-weight: bolder;
+}
+
+.dark-theme #Password_Checker {
+    font-size: 24px;
+    width: 250px;
+    height: inherit;
+    font-style: bold;
+    text-align: center;
+    border-color: 2px;
+    border-style: solid;
+    border-color: silver;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #666363;
+    font-weight: bolder;
+}
+
+.dark-theme #Password_Checker_Description {
+    font-size: 24px;
+    width: 450px;
+    height: inherit;
+    font-style: bold;
+    text-align: center;
+    border-color: 2px;
+    border-style: solid;
+    border-color: silver;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #666363;
+    font-weight: bolder;
 }
 
 div{
@@ -43,15 +96,34 @@ div{
 }
 
 .my-table{
-    border: 2px solid #000;
+    font-size: 1.5em;
+    border: 2px solid silver;
     margin: 0 auto;
-    width: 450px;
+    width: 700px;
     border-collapse: collapse;
+    background-color: #9c9998;
 }
+
+.dark-theme .my-table{
+    font-size: 1.5em;
+    border: 2px solid silver;
+    margin: 0 auto;
+    width: 700px;
+    border-collapse: collapse;
+    background-color: #666363;
+}
+
+
 
 .my-table th,
 .my-table td {
-    border: 2px solid #000;
+    border: 2px solid silver;
+    padding: 6px;
+}
+
+.dark-theme .my-table th,
+.dark-theme .my-table td {
+    border: 2px solid silver;
     padding: 6px;
 }
 
@@ -60,21 +132,62 @@ div{
 }
 
 .link_github {
+    width: 200px;
     text-decoration: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    background-color: #605e7a;
+    cursor: pointer;
 }
 
-.link_github:hover {
+/* .link_github:hover {
     color:blueviolet
 }
 
 .link_github:visited {
     color:cadetblue
+} */
+
+
+#text-how-to-disable-the-lock-threshold {
+    width: 500px;
+    border: 2px solid silver;
+    background-color: #9c9998;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+
+.dark-theme #text-how-to-disable-the-lock-threshold {
+    width: 500px;
+    border: 2px solid silver;
+    background-color: #666363;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+
+
+#how-to-disable-the-lock-threshold {
+    text-align: center;
 }
 
 #version-site {
     float: left;
+    border: 2px solid silver;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #9c9998;
+    font-weight: bolder;
 }
 
-#how-to-disable-the-lock-threshold {
-    text-align: center;
+.dark-theme #version-site {
+    float: left;
+    border: 2px solid silver;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #666363;
 }
