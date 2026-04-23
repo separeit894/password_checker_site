@@ -1,9 +1,29 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: #dedcdc;
     color: white;
     transition: background-color 0.7s, color 0.7s;
 }
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 1.125rem;
+    }
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+/* Десктопы (≥769px) */
+@media (min-width: 769px) {
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+
+
+
 button{
     font-size: 20px;
     font-weight: bolder;
@@ -140,15 +160,6 @@ div{
     background-color: #605e7a;
     cursor: pointer;
 }
-
-/* .link_github:hover {
-    color:blueviolet
-}
-
-.link_github:visited {
-    color:cadetblue
-} */
-
 
 #text-how-to-disable-the-lock-threshold {
     width: 500px;
