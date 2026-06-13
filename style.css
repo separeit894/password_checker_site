@@ -60,6 +60,7 @@ p{
     margin: 0 auto;
     padding: 10px;
     background-color: #9c9998;
+    margin-top: 10%;
     font-weight: bolder;
 }
 
@@ -91,6 +92,7 @@ p{
     border-radius: 15px;
     margin: 0 auto;
     padding: 10px;
+    margin-top: 10%;
     background-color: #666363;
     font-weight: bolder;
 }
